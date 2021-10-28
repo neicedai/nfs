@@ -1,0 +1,5 @@
+apt-get install samba
+cd /etc/samba/
+nano  smb.conf 
+smbpasswd -a root
+/etc/init.d/smbd restart
